@@ -12,8 +12,8 @@ public class Main {
             System.out.println("----------------MENU---------------");
             System.out.println("-----1------------2-----------3----");
             System.out.println("A" + "--Cola--------Fanta--------Pepsi--");
-            System.out.println("B" + "--Lays-------Pringles-----Doritos-");
-            System.out.println("C" + "--Kitkat-----Snickers------Twix---");
+            System.out.println("B" + "--Kitkat-----Snickers------Twix---");
+            System.out.println("C" + "--Lays-------Pringles-----Doritos-");
             System.out.println("-----------------------------------");
             System.out.println("------Enter your product code------");
             String input = scanner.nextLine();

@@ -14,7 +14,7 @@ public class Converter {
             String[] strings = s.split(":");
             Command command = new Command();
             command.setLine(strings[0]);
-            command.setColumn(Integer.valueOf(strings[1]));
+            command.setColumn(Integer.valueOf(strings[1])-1);
             return command;
         }
         //endregion
